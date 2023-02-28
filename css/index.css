@@ -1,0 +1,182 @@
+body{
+    background-image: url("../image/backgroundimg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:left top;
+    background-size:cover;
+    margin: 0;
+}
+.web-top1menu{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+}
+.web-top2menu{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+}
+.menu-choose{
+    display: flex;
+    width: 40%;
+    height: 100px;
+    justify-content: end;
+}
+.menu-choose1{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.menu-choose1 a{
+    color: black;
+    text-decoration: none;
+}
+.menu-choose1 a:hover{
+    color: azure;
+}
+.web-markimg{ /*長方形圖片轉圓形*/
+    display:inline-block;
+    position:relative;
+    width:100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+}
+.web-markimg img{ /*長方形圖片轉圓形*/
+    width:auto;
+    height:100%;
+    margin-left:-30%;
+}
+.web-top2imgs{
+    border-radius: 15px;
+    width: 520px;
+    height: auto;
+}
+.web-mark{
+    width: 30%;
+}
+.menu-space{
+    width: 30%;
+}
+.web-top1{
+    background:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.0));
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+}
+.web-top1box{
+    height: 75px;
+}
+.web-top2{
+    display: flex;
+    justify-content: center;
+}
+.web-top2text{
+    width: 40%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.web-top2space{
+    width: 20%;
+}
+.web-top2img{
+    width: 40%;
+    margin-bottom: 20px;
+}
+.web-toptotal{
+    
+}
+.web-toplines{
+    height: 100px;
+    width: 100%;
+}
+/*以上為web-top-css*/
+.web-bodytotal{
+}
+.web-body1{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+}
+.web-body1total{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+.web-body1text{
+    width: 45%;
+}
+.web-body1text ul li{
+    font-weight: bold;
+    font-size: 18px;
+}
+.web-body1space{
+    width: 10%;
+}
+.web-body1video{
+    margin: 10px;
+    width: 45%;
+}
+.web-body2total{
+    display: flex;
+    justify-content: center;
+}
+.web-body2{
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+}
+.web-body2video{
+    margin: 10px;
+    width: 45%;
+}
+.web-body2space{
+    width: 10%;
+}
+.web-body2text{
+    width: 45%;
+}
+.web-body2text ul li{
+    font-weight: bold;
+    font-size: 18px;
+}
+.web-body3{
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+}
+.web-body3total{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.web-body3text{
+    width: 45%;
+}
+.web-body3text ul li{
+    font-weight: bold;
+    font-size: 18px;
+}
+.web-body3space{
+    width: 10%;
+}
+.web-body3video{
+    margin: 10px;
+    width: 45%;
+}
+/*上方為網頁body-css*/
+.web-bottom{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.web-bottomtext{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
